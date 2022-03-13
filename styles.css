@@ -1,0 +1,103 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    transition: all 1s ease-in;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    padding: 0px 5rem;
+}
+
+.card {
+    position: relative;
+    padding: 2.5rem;
+    border-radius: 10px;
+    width: 28rem;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.header--green {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.quote--light {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    margin-top: 1.5rem;
+}
+
+.divider {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.btn-circle {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    width: 58px;
+    height: 58px;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+}
+
+.btn-absolute {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+button:hover {
+    box-shadow: 0px 0px 25px hsl(150, 100%, 66%);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.attribution {
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.attribution a {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .flex {
+        position: relative;
+        width: 100%;
+        padding: 1rem;
+    }
+    .card {
+        width: 90%;
+    }
+    .btn-absolute {
+        bottom: -15%;
+    }
+}
