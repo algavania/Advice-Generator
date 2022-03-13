@@ -23,9 +23,9 @@ body {
 
 .card {
     position: relative;
-    padding: 2.5rem;
+    padding: 2.8rem;
     border-radius: 10px;
-    width: 28rem;
+    width: 35rem;
     background-color: hsl(217, 19%, 24%);
 }
 
@@ -96,8 +96,6 @@ button:hover {
     }
     .card {
         width: 90%;
-    }
-    .btn-absolute {
-        bottom: -15%;
+        padding: 2rem;
     }
 }
